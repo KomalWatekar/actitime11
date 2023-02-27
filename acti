@@ -8,3 +8,5 @@ driver.findElementBy.linktext
 driver.findElementBy.partiallinktext
 driver.findElementBy.css
 driver.findElementBy.xpath
+driver.manage().window().maximize();
+driver.manage().timeouts().implicitlywait(Duration.ofseconds(10));
